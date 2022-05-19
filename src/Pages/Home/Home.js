@@ -18,7 +18,6 @@ const Home = () => {
             <MakeAppointment></MakeAppointment>
             <Testimonials></Testimonials>
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };
