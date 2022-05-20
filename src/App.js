@@ -5,6 +5,7 @@ import About from './Pages/Home/About';
 import Login from './Pages/Login/Login';
 import Appointment from './Pages/Appointment/Appointment';
 import Footer from './Pages/Shared/Footer';
+import SignUp from './Pages/Login/SignUp';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="appointment" element={<Appointment/>} />
         <Route path="login" element={<Login />} />
+        <Route path="signup" element={<SignUp />} />
       </Routes>
       <Footer></Footer>
     </div>
