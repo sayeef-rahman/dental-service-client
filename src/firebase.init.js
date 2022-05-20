@@ -19,5 +19,6 @@ console.log(process.env.apiKey);
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
+// console.log("auth from firebase:",auth)
 
 export default auth;
