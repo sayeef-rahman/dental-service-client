@@ -7,8 +7,9 @@ const AvailableAppointments = ({ date }) => {
     const [services, setServices] = useState([]);
     const [treatment, setTreatment] = useState(null);
 
+    // heroku server link: https://shielded-ocean-86018.herokuapp.com
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://shielded-ocean-86018.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
